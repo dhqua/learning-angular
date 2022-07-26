@@ -12,7 +12,7 @@ export class TestCustomPipeComponent implements OnInit {
   ngOnInit(): void {
   }
   inputText = "";
-  resultText = "test";
+  resultText = "";
 
   updateResult(){
     this.resultText = this.inputText;
