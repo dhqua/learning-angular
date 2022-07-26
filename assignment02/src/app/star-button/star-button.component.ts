@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './star-button.component.html',
   styleUrls: ['./star-button.component.css']
 })
-export class StarButtonComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+export class StarButtonComponent  {
+  isActive = false;
+  clickImg(){
+    this.isActive = !this.isActive;
   }
-
 }
