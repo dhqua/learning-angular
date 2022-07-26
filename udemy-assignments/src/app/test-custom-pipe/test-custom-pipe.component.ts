@@ -11,5 +11,11 @@ export class TestCustomPipeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  inputText = "";
+  resultText = "test";
+
+  updateResult(){
+    this.resultText = this.inputText;
+  }
 
 }
