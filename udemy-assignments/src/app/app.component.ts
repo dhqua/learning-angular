@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'assignment01';
+  title = 'Udemy-Course';
+
+  post = {
+    likeCount: 0,
+    isLiked: false
+  }
 }

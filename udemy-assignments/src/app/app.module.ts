@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { StarButtonComponent } from './star-button/star-button.component';
 import { TestCustomPipeComponent } from './test-custom-pipe/test-custom-pipe.component';
+import { LikeButtonComponent } from './like-button/like-button.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { TestCustomPipeComponent } from './test-custom-pipe/test-custom-pipe.com
     StarButtonComponent,
     TitlePipe,
     TestCustomPipeComponent,
+    LikeButtonComponent,
   ],
   imports: [
     BrowserModule,
